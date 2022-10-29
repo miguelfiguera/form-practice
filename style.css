@@ -59,6 +59,7 @@ p.footer {
     font-size: small;
     flex-flow: column;
     justify-content: flex-end;    
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 div.positioning {
