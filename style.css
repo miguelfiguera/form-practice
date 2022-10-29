@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -78,6 +81,7 @@ div.rightside {
     color: rgb(187, 184, 184);
     justify-content: center;
     align-content: center;
+    font-family: 'Space Grotesk', sans-serif;
 
 }
 
@@ -112,6 +116,7 @@ div.formbox {
     width: 80%;
     margin-left: 10%;
     margin-right: 5%;
+    font-size: smaller;
 }
 
 
