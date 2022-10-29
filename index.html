@@ -24,31 +24,30 @@
 
 
         <div class="formbox">
-            <form action="example.com/path" method="post">
+            <form method="post">
                 <div class="formrow">
                     <label for="name">Name</label>
-                    <input type="text" name="name" pattern="^([a-ZA-Z]+)$" required>
+                    <input type="text" name="name" pattern="^([a-ZA-Z]+)$" >
                     <label for="lastname">Last name</label>
-                    <input type="text" name="lastname" pattern="^([a-ZA-Z]+)$" required>
+                    <input type="text" name="lastname" pattern="^([a-ZA-Z]+)$" >
                 </div>
                 <div class="formrow">
                     <label for="cellphone"> Celphone</label>
-                    <input type="tel" name="cellphone" min="10"  pattern="^([\d]{3})[\-]?([\d]{3})[\-]?([\d]{4})$">
+                    <input type="tel" name="cellphone" min="10" pattern="^([\d]{3})[\-]?([\d]{3})[\-]?([\d]{4})$">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" required placeholder="email@themail.com" required>
+                    <input type="email" name="email" placeholder="email@themail.com" >
                 </div>
                 <div class="formrow">
                     <label for="password">Password</label>
-                    <input type="password" name="password" required placeholder="****" minlength="8" maxlength="12">
+                    <input type="password" name="password"  placeholder="****" minlength="8" maxlength="12">
                     <label for="confirm">Confirm Password</label>
-                    <input type="password" name="confirm" required placeholder="****" minlength="8" maxlength="12">
+                    <input type="password" name="confirm"  placeholder="****" minlength="8" maxlength="12">
                 </div>
-            </form>
-        </div>
+            <button type="submit" > Submit Aplicattion</button>
+             <!-- for the button to work with the form, it must be a type submit/reset and be inside the form.  -->
 
-
-
-        <button class="submit"> Submit Aplicattion</button>
+        </form>
+        </div> 
         <p class="lastp"> Do you have an account? <strong>Log in</strong></p>
     </div>
     

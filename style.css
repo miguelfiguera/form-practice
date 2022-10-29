@@ -85,7 +85,7 @@ div.top {
     display: flex;
     flex-flow: column;
     flex-grow: 0;
-    height: 300px;
+    height: 200px;
     justify-content: flex-end;
     margin-bottom: 30px;
 }
@@ -115,13 +115,13 @@ div.formbox {
 }
 
 
-button {
+form > button {
     margin-top: 10px;
     background-color: rgba(8, 9, 63, 0.637);
-    width: 20%;
+    width: 33%;
     height: 75px;
     position: relative;
-    margin-left: 40%;
+    margin-left: 33%;
     border-radius: 25px;
     font-weight: bold;
     color:silver;
