@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="logo">
+        <div class="positioning"></div>
+        <div class="lateral bar">
+        <p class="odin"> STAR FLEET COMMAND</p>
+    </div>
+    <div class="positioning"></div>
+        <p class="footer"> USS Enterprise.</p>
+    </div>
+    <div class="rightside">
+        <div class="top">
+            <p class="firstm">Enjoy the adventure of living in a starship, be a part of the Space Exploration.</p>
+            <p class="secondm">Join to Star Fleet Today!</p>
+        </div>
+
+
+        <div class="formbox">
+            <form action="example.com/path" method="post">
+                <div class="formrow">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" pattern="^([a-ZA-Z]+)$" required>
+                    <label for="lastname">Last name</label>
+                    <input type="text" name="lastname" pattern="^([a-ZA-Z]+)$" required>
+                </div>
+                <div class="formrow">
+                    <label for="cellphone"> Celphone</label>
+                    <input type="tel" name="cellphone" min="10"  pattern="^([\d]{3})[\-]?([\d]{3})[\-]?([\d]{4})$">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" required placeholder="email@themail.com" required>
+                </div>
+                <div class="formrow">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" required placeholder="****" minlength="8" maxlength="12">
+                    <label for="confirm">Confirm Password</label>
+                    <input type="password" name="confirm" required placeholder="****" minlength="8" maxlength="12">
+                </div>
+            </form>
+        </div>
+
+
+
+        <button class="submit"> Submit Aplicattion</button>
+        <p class="lastp"> Do you have an account? <strong>Log in</strong></p>
+    </div>
+    
+</body>
+</html>
